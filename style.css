@@ -1,0 +1,175 @@
+*{
+    margin:0;}
+
+
+    @font-face {
+        font-family: IndieFlower-Regular;
+        src: url(IndieFlower-Regular.ttf)
+        
+      }
+
+    @font-face {
+        font-family: JollyLodger-Regular;
+        src: url(JollyLodger-Regular.ttf);
+    }
+
+
+    .topo{
+
+    background-color: #d3cfcf;
+    width: 100%;
+    height: 135px;
+    opacity: 0.7;
+    filter: blur();
+    position: relative;
+    z-index:2;
+    
+    
+}
+
+
+.logo{
+
+    width: 45px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 15px ;
+  
+    
+
+    
+    }
+    
+
+.menu{
+
+    list-style: none;
+    float: left;
+    width:auto; 
+    float:left; 
+    text-align:center; 
+    margin-left: 150px;
+    margin-top: 45px;
+    
+    
+
+}
+
+
+.menu li{
+    position:relative;
+    float:left;
+    margin: 20px;
+    font-family: IndieFlower-Regular;
+    color: black;
+    }
+
+.conteudo{
+
+    width: 100%;
+    height: 630px;
+    margin-top: 3px;
+
+}
+
+
+
+
+.menu_rodape{
+
+    float: left;
+    width:auto; 
+    float:left; 
+    text-align:center; 
+    margin-left: 440px;
+    
+
+
+}
+
+
+.menu_rodape li{
+    list-style-type: none;
+    position:relative;
+    float:left;
+    margin: 20px;
+    font-family: IndieFlower-Regular;
+    color: black;
+    }
+
+
+    .rodape{
+
+        background-color: #d3cfcf;
+        width: 100%;
+        height: 100px;
+        opacity: 0.7;
+        position: relative;
+        z-index:2;
+    }
+    .tela_home{
+
+        margin-top: -40px;
+        width: 100%;
+        height: 700px;
+        position: relative;
+        z-index:1;
+    }
+
+    .logo_text{
+
+        font-family:JollyLodger-Regular;
+        float: left;
+        margin-left:20px;
+        margin-top:22px;
+        font-size: 35px;
+        user-select:none;
+        
+    }
+
+    .linha1_rodape{
+
+        width: 100%;
+        height: 13px;
+        background-color: yellow;
+    }
+
+
+    .linha2_rodape{
+
+        width: 100%;
+        height: 7px;
+        background-color: rgb(216, 6, 41)
+    }
+
+    .ultimalinha_rodape{
+
+        width: 100%;
+        height: 13px;
+        background-color: yellow;
+    }
+
+    .meio{
+
+        background-image: linear-gradient(#d3cfcf, rgba(248, 245, 245, 0.822));
+        width: 1135px;
+        height: 600px;
+        margin-top: 15px;
+        margin-left: 110px;
+        margin-right: 110px;
+        position: absolute;
+        border-radius:20px;
+        opacity: 0.7;
+        z-index:2;
+        display: block;
+
+
+    }
+
+    
+ 
+
+
+
+
+
