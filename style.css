@@ -4,15 +4,27 @@
 
     @font-face {
         font-family: IndieFlower-Regular;
-        src: url(IndieFlower-Regular.ttf)
+        src: url(fontes/IndieFlower-Regular.ttf)
         
       }
 
     @font-face {
         font-family: JollyLodger-Regular;
-        src: url(JollyLodger-Regular.ttf);
+        src: url(fontes/JollyLodger-Regular.ttf);
     }
 
+    @font-face {
+        font-family:Griffy-Regular;
+        src: url(fontes/Griffy-Regular.ttf);
+    }
+
+    @font-face {
+        font-family:Homenaje-Regular;
+        src: url(fontes/Homenaje-Regular.ttf);
+    }
+
+
+    /*Header*/
 
     .topo{
 
@@ -39,6 +51,18 @@
 
     
     }
+
+
+    .logo_text{
+
+        font-family:JollyLodger-Regular;
+        float: left;
+        margin-left:20px;
+        margin-top:22px;
+        font-size: 35px;
+        user-select:none;
+        
+    }
     
 
 .menu{
@@ -57,6 +81,7 @@
 
 
 .menu li{
+
     position:relative;
     float:left;
     margin: 20px;
@@ -64,68 +89,427 @@
     color: black;
     }
 
-.conteudo{
+
+
+.menu li:hover {
+
+    font-weight: bold;
+    color: #db0c39;
+    text-decoration: underline;
+
+}
+
+  /*Main*/
+
+.conteudo_home {
 
     width: 100%;
     height: 630px;
     margin-top: 3px;
+       
+}
+
+.conteudo{
+
+    width: 100%;
+    height: 700px;
+    margin-top: 3px;
+    
+}
+
+
+.tela_fundo{
+
+    margin-top: -40px;
+    width: 100%;
+    height: 760px;
+    position: relative;
+    z-index:1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+
+.tela_home{
+
+    margin-top: -40px;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index:1;
+   
+}
+
+.meio{
+
+    background-image: linear-gradient(#d3cfcf, rgba(248, 245, 245, 0.822));
+    width: 1135px;
+    height: 600px;
+    margin-top: 15px;
+    margin-left: 110px;
+    margin-right: 110px;
+    position: absolute;
+    border-radius:20px;
+    opacity: 0.7;
+    z-index:2;
+    display: block;
+    padding-top: 50px;
+
 
 }
 
 
 
+.container-cardapio{
 
-.menu_rodape{
-
-    float: left;
-    width:auto; 
-    float:left; 
-    text-align:center; 
-    margin-left: 440px;
+    background-image: linear-gradient(#d3cfcf, rgba(248, 245, 245, 0.822));
+    width: 1135px;
+    height: 600px;
+    margin-top: 15px;
+    margin-left: 110px;
+    margin-right: 110px;
+    position: absolute;
+    border-radius:20px;
+    opacity: 0.7;
+    z-index:2;
+    display: flex;
+    
     
 
 
 }
 
 
-.menu_rodape li{
-    list-style-type: none;
-    position:relative;
-    float:left;
-    margin: 20px;
-    font-family: IndieFlower-Regular;
+.cardapio-titulo {
+
+    z-index: 3;
+    position: absolute;
+    padding-left: 160px;
+    padding-top: 50px;
+    font-family:Griffy-Regular;
     color: black;
+    font-size: 26px;
+    user-select: none;
+    
+
+}
+
+
+.titulo {
+
+        
+    padding-left: 50px;
+    font-family:Griffy-Regular;
+    color: black;
+    font-size: 26px;
+    user-select: none;
+    margin-bottom: 50px;
+    
+    
+
+
+}
+
+
+.titulo-localizacao {
+
+    padding-left: 50px;
+    font-family:Griffy-Regular;
+    color: black;
+    font-size: 26px;
+    user-select: none;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+.texto_cardapio {
+
+    padding-top:100px;
+    font-family: IndieFlower-Regular;
+    color: #2e2b2b;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: bold;   
+    z-index: 3;     
+    padding-left: 50px;
+    user-select: none;
+
+    
+
+}
+
+
+.texto {
+
+    font-family: IndieFlower-Regular;
+    color: #2e2b2b;
+    padding-left: 50px;
+    font-size: 17px;
+    font-weight: bold;   
+    z-index: 3; 
+    user-select: none;        
+
+}
+
+
+.texto-quem-somos, .texto-contato {
+
+    font-family: IndieFlower-Regular;
+    color: #2e2b2b;
+    padding-left: 50px;
+    font-size: 17px;
+    font-weight: bold;   
+    z-index: 3; 
+    user-select: none;  
+    padding-bottom: 30px;
+
+
+
+}
+
+
+.img_hamburguer1{
+
+    border-radius: 10px;
+    float:left;
+    margin-left: 50px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: solid 2px #db0c39;
+}
+
+
+#img_hamburguer3 {
+
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 30px;
+    border-radius: 10px;
+    float: left;
+    border: solid 2px #db0c39;
+
+   
+
+
+
+}
+
+
+
+
+
+    /*Formulários*/
+
+    
+    .formulario-texto-cadastro{
+
+        padding-top:20px;
+        font-family: Homenaje-Regular;
+        color: #2e2b2b;
+        padding-left: 50px;
+        font-size: 15px;   
+        
+
     }
+
+
+    .formulario-texto{
+
+        padding-top:20px;
+        font-family: Homenaje-Regular;
+        color: #2e2b2b;
+        padding-left: 50px;
+        font-size: 21px;
+        font-weight: bold;   
+        z-index: 3;  
+          
+
+    }
+
+    
+
+    #input-container1{
+
+       margin-left: 60px;
+
+    }
+
+
+
+    #input-container2{
+
+        margin-left: 35px;
+
+
+    }
+
+    #input-container3{
+
+        margin-left: 58px;
+
+
+    }
+
+    
+    #input-container4{
+
+        margin-left: 10px;
+
+
+    }
+
+    #input-container5{
+
+        margin-left: 62px;
+
+
+    }
+
+
+    #input-container6{
+
+        margin-left: 12px;
+
+
+    }
+
+    
+
+    label {
+
+        margin-right: 10px;
+    }
+
+    
+
+
+    input{
+
+        border-radius: 15px;
+        width: 200px;
+        height: 25px;
+        background-color: rgb(219, 122, 167);
+        padding-left: 10px;
+        
+        
+    }
+
+
+
+    input::placeholder {
+
+        color: rgb(83, 67, 67);
+        font-family: IndieFlower-Regular;
+        padding-left: 5px;
+    }
+
+
+
+    .button-form {
+
+        font-family: Homenaje-Regular;
+        text-align: center;
+        font-weight: bold;
+        width: 80px;
+        height: 30px;
+        background-color: #9c9393;
+        margin-left: 115px;
+        cursor:pointer;
+
+    }
+
+    .button-form:hover {
+
+        background: #575050 ;
+        transition: 1s;
+        
+    }
+
+
+    /*Google Maps*/
+
+    .mapa {
+
+        padding-left: 42px;
+
+        
+    }
+
+    iframe{
+
+        border-radius: 10px;
+        
+    }
+
+
+    /*Esqueceu a Senha e Criar Conta*/
+
+
+    .esqueceu_senha{
+
+        font-family:Homenaje-Regular;
+        margin-left: 80px;
+        font-size: 17px;   
+       
+        
+    }
+
+    .esqueceu_senha a {
+
+        color: currentColor;
+        text-decoration: none;
+
+    }
+
+
+    .criar_conta{
+
+        font-family:Homenaje-Regular;
+        margin-left: 135px;
+        font-size: 17px;
+        margin-top: 20px;
+        
+        
+       
+        
+    }
+
+    .criar_conta a {
+
+        color: currentColor;
+        text-decoration: none;
+
+    }
+
+    /*Footer*/
+
+.menu_rodape{
+
+ 
+    text-align:center; 
+    margin: 0 auto;
+    padding-left: 0;
+
+}
 
 
     .rodape{
 
-        background-color: #d3cfcf;
+        background-color: #b8b4b4;
         width: 100%;
-        height: 100px;
+        height: 250px;
         opacity: 0.7;
         position: relative;
         z-index:2;
     }
-    .tela_home{
 
-        margin-top: -40px;
-        width: 100%;
-        height: 700px;
-        position: relative;
-        z-index:1;
-    }
 
-    .logo_text{
 
-        font-family:JollyLodger-Regular;
-        float: left;
-        margin-left:20px;
-        margin-top:22px;
-        font-size: 35px;
-        user-select:none;
-        
-    }
 
     .linha1_rodape{
 
@@ -142,32 +526,57 @@
         background-color: rgb(216, 6, 41)
     }
 
-    .ultimalinha_rodape{
 
-        width: 100%;
-        height: 13px;
-        background-color: yellow;
+    .copyright {
+
+        font-family: tahoma;
+        font-size: 11px;
+        margin-left: 98px;
+        color: #2c2a2a;
+        user-select: none;
+        margin-top: 80px;
     }
 
-    .meio{
+    .burguer-rodape {
 
-        background-image: linear-gradient(#d3cfcf, rgba(248, 245, 245, 0.822));
-        width: 1135px;
-        height: 600px;
-        margin-top: 15px;
-        margin-left: 110px;
-        margin-right: 110px;
-        position: absolute;
-        border-radius:20px;
-        opacity: 0.7;
-        z-index:2;
-        display: block;
-
-
+       width: 65px;
+       margin-top: 40px;
+       margin-bottom: 10px;
+       margin-left: 80px;
+       margin-right: 10px;
+       
+       
+       
     }
 
     
+    .social-media {
+
+        width: 90px;
+        margin-top: 30px;
+        display: inline-block;  
+        
+    }
+
+
+
+
+
+    
+
+
+
+    
+
+   
  
+    
+
+
+
+
+
+
 
 
 
