@@ -178,6 +178,25 @@
 }
 
 
+.container-cardapio-lanches{
+
+    background: linear-gradient(#d3cfcf, rgba(248, 245, 245, 0.822));
+    width: 1135px;
+    height: 600px;
+    margin-top: 15px;
+    margin-left: 110px;
+    margin-right: 110px;
+    position: absolute;
+    border-radius:20px;
+    opacity: 0.7;
+    z-index:2;
+    display: flex;
+    
+
+
+}
+
+
 .cardapio-titulo {
 
     z-index: 3;
@@ -235,10 +254,15 @@
     font-weight: bold;   
     z-index: 3;     
     padding-left: 50px;
-    user-select: none;
+    
 
     
 
+}
+
+.texto_cardapio::selection {
+
+    background:  white;
 }
 
 
@@ -314,7 +338,7 @@
         width: 200px;
         height: 350px;
         margin-top: 110px;
-        margin-left: 50px;
+        margin-left: 82px;
         margin-right: 110px;
         position: absolute;
         border-radius: 10px;
@@ -339,7 +363,7 @@
         width: 200px;
         height: 350px;
         margin-top: 110px;
-        margin-left: 300px;
+        margin-left: 338px;
         margin-right: 110px;
         position: absolute;
         border-radius: 10px;
@@ -349,6 +373,8 @@
         font-family: Montserrat-Medium;
         text-transform: uppercase;
         color: white;
+        cursor: pointer;
+        user-select: none;
 
        
     
@@ -362,7 +388,7 @@
         width: 200px;
         height: 350px;
         margin-top: 110px;
-        margin-left: 550px;
+        margin-left: 590px;
         margin-right: 110px;
         position: absolute;
         border-radius: 10px;
@@ -372,6 +398,8 @@
         font-family: Montserrat-Medium;
         text-transform: uppercase;
         color: white;
+        cursor: pointer;
+        user-select: none;
 
        
     
@@ -384,7 +412,7 @@
         width: 200px;
         height: 350px;
         margin-top: 110px;
-        margin-left: 800px;
+        margin-left: 845px;
         margin-right: 110px;
         position: absolute;
         border-radius: 10px;
@@ -394,6 +422,8 @@
         font-family: Montserrat-Medium;
         text-transform: uppercase;
         color: white;
+        cursor: pointer;
+        user-select: none;
 
        
     
@@ -402,27 +432,27 @@
 
     .card-texto-lanches{
 
-        margin-left: 35px;
+        text-align: center;
         margin-top: 20px;
     }
 
 
     .card-texto-bebidas{
 
-        margin-left: 63px;
+        text-align: center;
         margin-top: 20px;
     }
 
 
     .card-texto-sobremesas{
 
-        margin-left: 40px;
+        text-align: center;
         margin-top: 20px;
     }
 
     .card-texto-pizzas{
 
-        margin-left: 65px;
+        text-align: center;
         margin-top: 20px;
     }
 
@@ -432,6 +462,29 @@
         margin-top: 140px;
         font-size: 15px;
 
+    }
+
+    .card-texto-bebidas-js {
+
+        text-align: center;
+        margin-top: 140px;
+        font-size: 15px;
+
+    }
+
+    .card-texto-sobremesas-js {
+
+        text-align: center;
+        margin-top: 140px;
+        font-size: 15px;
+
+    }
+
+    .card-texto-pizzas-js {
+
+        text-align: center;
+        margin-top: 140px;
+        font-size: 15px;
     }
 
 
