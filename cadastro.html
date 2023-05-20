@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script-cadastro.js" defer></script>
+    
 
     <title>Chainsaw Burguer</title>
 
@@ -29,7 +32,7 @@
         
                 <ul class="menu">
                     <a href="home.html"><li>Home</li></a>
-                    <a href="quem_somos.html"><li>Quem Somos</li></a>
+                    <a href="quem-somos.html"><li>Quem Somos</li></a>
                     <a href="cardapio.html"><li>Cardápio</li></a>
                     <a href="localizacao.html"><li>Localização</li></a>
                     <a href="contato.html"><li>Contato</li></a>
@@ -54,33 +57,33 @@
                 <div class="formulario">
 
 
-                    <form class="formulario-texto-cadastro">
+                    <form id="formulario-texto-cadastro">
         
                         <form action="">
         
-                        <label id = "label-container1" for="nome" type="text"> Nome:</label>
-                        <input id = "input-container1" type="text" name="nome" id="nome" placeholder="Nome"> <br><br>
+                        <label class="nome-label" for="nome" type="text"> Nome:</label>
+                        <input class="nome-input" type="text" name="nome" placeholder="Nome" id="nome-cadastro"> <br><br>
 
-                        <label id = "label-container2" for="nome" type="text"> Sobrenome:</label>
-                        <input id = "input-container2" type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome"> <br><br>
+                        <label class="sobrenome-label" for="nome" type="text"> Sobrenome:</label>
+                        <input class="sobrenome-input" type="text" name="sobrenome" placeholder="Sobrenome" id="sobrenome"> <br><br>
                         
-                        <label id = "label-container7" for="text" type="text"> Sexo: </label>
-                        <input id = "input-container7" type="radio" name="sexo" value="feminino">Feminino
-                        <input id = "input-container8" type="radio" name="sexo" value="masculino">Maculino<br> <br>
+                        <label class="label-radio-sexo" for="text" type="text"> Sexo: </label>
+                        <input class="input-radio-feminino" type="radio" name="sexo" value="feminino" id="feminino">Feminino
+                        <input class="input-radio-masculino" type="radio" name="sexo" value="masculino" id="masculino">Maculino<br> <br>
                         
                         <br>
 
-                        <label id = "label-container3" for="email" type="email"> E-mail: </label>
-                        <input id = "input-container3" type="text" name="email" id="email" placeholder="E-mail"> <br><br>
+                        <label class="email-label" for="email" type="email"> E-mail: </label>
+                        <input class="email-input" type="text" name="email"  placeholder="E-mail" id="email"> <br><br>
 
-                        <label id = "label-container4" for="email" type="email"> Confirmar E-mail: </label>
-                        <input id = "input-container4" type="text" name="email" id="email" placeholder="E-mail"> <br><br>
+                        <label class="confirma-email-label" for="email" type="email"> Confirmar E-mail: </label>
+                        <input class="confirma-email-input" type="text" name="email"  placeholder="E-mail" id="email_confirmacao"> <br><br>
 
-                        <label id = "label-container5" for="password" type="password"> Senha: </label>
-                        <input id = "input-container5" type="password" name="password" id="password" placeholder="Senha"> <br><br>
+                        <label class="senha-label" for="password" type="password"> Senha: </label>
+                        <input class="senha-input-cadastro" type="password" name="password"  placeholder="Senha" id="senha-cadastro"> <br><br>
 
-                        <label id = "label-container6" for="password" type="password"> Confirmar Senha: </label>
-                        <input id = "input-container6" type="password" name="password" id="password" placeholder="Senha"> <br><br><br>
+                        <label class="confirma-senha-label" for="password" type="password"> Confirmar Senha: </label>
+                        <input class="confirma-senha-input" type="password" name="password"  placeholder="Senha" id="senha_confirmacao"> <br><br><br>
 
 
                         

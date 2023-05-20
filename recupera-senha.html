@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script-recupera-senha.js" defer></script>
 
     <title>Chainsaw Burguer</title>
 
@@ -25,7 +26,7 @@
 
                 <ul class="menu">
                     <a href="home.html"><li>Home</li></a>
-                    <a href="quem_somos.html"><li>Quem Somos</li></a>
+                    <a href="quem-somos.html"><li>Quem Somos</li></a>
                     <a href="cardapio.html"><li>Cardápio</li></a>
                     <a href="localizacao.html"><li>Localização</li></a>
                     <a href="contato.html"><li>Contato</li></a>
@@ -53,10 +54,10 @@
 
                         <form action="">
         
-                        <label for="email" type="email"> Inserir E-mail: </label>
-                        <input type="email" name="email" id="email" placeholder="E-mail"> <br><br>
+                        <label class="recuperar-login-label" for="email" type="email" > Inserir E-mail: </label>
+                        <input class="recuperar-login" type="email" name="email" id="email_recuperacao" placeholder="email@dominio.com"> <br><br><br>
 
-                        <input class ="button-form" type="button" value="Enviar E-mail">
+                        <input class ="button-form-tela-recupera-senha" type="button" value="Enviar">
 
                         </form>              
 
@@ -96,6 +97,7 @@
         
         
         </footer>
-    
+
+        
 </body>
 </html>
