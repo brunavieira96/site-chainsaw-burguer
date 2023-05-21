@@ -46,6 +46,12 @@ cardBebidas.addEventListener("mouseout", () => {
     cardBebidas.style.background="#db0c39"
 })
 
+
+cardBebidas.addEventListener("click", () => {
+
+    window.location="cardapio-bebidas.html"
+})
+
 // Card Sobremesas
 
 
@@ -64,6 +70,11 @@ cardSobremesas.addEventListener("mouseout", () => {
     cardSobremesas.style.background="#db0c39"
 })
 
+cardSobremesas.addEventListener("click", () => {
+
+    window.location="cardapio-sobremesas.html"
+})
+
 
 // Card Pizzas
 
@@ -73,6 +84,7 @@ cardPizzas.addEventListener("mouseover", () => {
 
     cardPizzas.innerHTML=`<p class="card-texto-pizzas-js">Acesse o Cardapio</p>`
     cardPizzas.style.background="#f83486"
+
 })
 
 cardPizzas.addEventListener("mouseout", () => {
@@ -82,5 +94,9 @@ cardPizzas.addEventListener("mouseout", () => {
     cardPizzas.style.background="#db0c39"
 })
 
+cardPizzas.addEventListener("click", () => {
+
+    window.location="cardapio-pizzas.html"
+})
 
 
