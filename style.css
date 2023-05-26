@@ -793,6 +793,19 @@
         width: 100px;
     }
 
+
+    /* ---------- Estilos dinâmicos ---------- */
+.required-popup::after {
+    content: "*Campo obrigatório";
+    color: #0c0a0a;
+    font-size: .65rem;
+    display:block;
+    
+
+    
+    
+  }
+
       /*
 
     @media screen and (max-width: 480px) {
