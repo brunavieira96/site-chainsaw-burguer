@@ -41,6 +41,7 @@
     z-index:2;
     
     
+    
 }
 
 
@@ -98,13 +99,16 @@
 
   /*Main*/
 
-.conteudo_home {
+.carousel-container {
 
     width: 100%;
-    height: 630px;
-    margin-top: 3px;
+    height: 590px;
+    margin-top:0;
+    position: relative;
        
 }
+
+
 
 
 .conteudo-cardapio-cards{
@@ -128,15 +132,24 @@
 }
 
 
-.tela_home{
+.carousel-img img{
 
     margin-top: -40px;
     width: 100%;
-    height: 700px;
+    height: 630px;
     position: relative;
     z-index:1;
+    object-fit: cover;
+    position: absolute;
+
+    
    
 }
+
+
+
+
+
 
 .meio{
 
@@ -202,7 +215,7 @@
 
     z-index: 3;
     position: absolute;
-    padding-left: 160px;
+    padding-left: 170px;
     padding-top: 50px;
     font-family:Griffy-Regular;
     color: black;
@@ -245,21 +258,94 @@
 
 
 
-.texto_cardapio {
+.texto-cardapio-parte-1 {
 
     padding-top:100px;
     font-family: IndieFlower-Regular;
     color: #2e2b2b;
-    padding-left: 20px;
     font-size: 18px;
     font-weight: 600;  
     z-index: 3;     
-    padding-left: 50px;
+    padding-left: 70px;
     
 
     
 
 }
+
+.cardapio-button {
+
+width: 100px;
+height: 30px;
+background-color:#db0c39;
+color: white;
+border-radius: 30px;
+text-transform: uppercase;
+margin-top: 15px;
+cursor: pointer;
+
+
+}
+
+
+.cardapio-sobremesas-button {
+
+width: 100px;
+height: 30px;
+background-color:#db0c39;
+color: white;
+border: 2px solid white;
+border-radius: 30px;
+text-transform: uppercase;
+margin-top: 10px;
+cursor: pointer;
+
+}
+
+.cardapio-lanches-button {
+
+width: 100px;
+height: 30px;
+background-color:#db0c39;
+color: white;
+border: 2px solid white;
+border-radius: 30px;
+text-transform: uppercase;
+margin-top: 10px;
+cursor: pointer;
+
+}
+
+.cardapio-bebidas-button {
+
+width: 100px;
+height: 30px;
+background-color:#db0c39;
+color: white;
+border: 2px solid white;
+border-radius: 30px;
+text-transform: uppercase;
+margin-top: 10px;
+cursor: pointer;
+
+}
+
+.cardapio-pizzas-button {
+
+    width: 100px;
+    height: 30px;
+    background-color:#db0c39;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    cursor: pointer;
+
+    
+    }
+
+
 
 .texto_cardapio::selection {
 
@@ -536,6 +622,10 @@
 
     }
 
+
+
+   
+
     
 
     .nome-input{
@@ -586,6 +676,8 @@
 
 
     }
+
+
 
 
     .confirma-senha-input{
@@ -794,17 +886,46 @@
     }
 
 
-    /* ---------- Estilos dinâmicos ---------- */
-.required-popup::after {
-    content: "*Campo obrigatório";
-    color: #0c0a0a;
-    font-size: .65rem;
-    display:block;
-    
 
-    
+
+    /* ---------- Estilos dinâmicos ---------- */
+  
+  input.error {
+    border: solid 2px #f11010;
+    background-color: rgb(245, 149, 149);
+    color: #662020;
+  }
+  
+  input.correct {
+    background-color: rgb(146, 219, 143);
+    border: solid 2px #206620;
+    color: #206620;
+  }
+  
+ 
+  .helper-text-senha, .helper-text-login {
+    display: none;
+    font-size: .7rem;
+    font-family: tahoma;
+    color: rgb(236, 26, 26);
+    margin-left: 65px;
+    margin-top: 5px;
     
   }
+
+  .visible {
+    display: block;
+  }
+
+
+
+ 
+
+
+
+
+
+
 
       /*
 

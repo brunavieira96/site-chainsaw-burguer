@@ -1,28 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name ="viewport" content="width=device-width">
 
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script-buttons.js" defer></script>
 
     <title>Chainsaw Burguer</title>
-
-    <style>
-        
-    </style>
-
+    <link rel="icon" type="image/x-icon" href="imagens/logo.png"> 
 
 </head>
 <body>
-
     <header class="topo">  
+         <link rel="icon" type="image/x-icon" href="imagens/logo.png">
+            <img class="logo" src="imagens/logo.png" alt="Logo Chainsaw Burguer">
 
-        <link rel="icon" type="image/x-icon" href="imagens/logo.png">
-
-                <img class="logo" src="imagens/logo.png" alt="Logo Chainsaw Burguer">
                 <span class="logo_text">Chainsaw Burguer</span>
 
                 <ul class="menu">
@@ -32,116 +26,91 @@
                     <a href="localizacao.html"><li>Localização</li></a>
                     <a href="contato.html"><li>Contato</li></a>
                     <a href="login.html"><li>Login</li></a>
-
-            </ul>
-
-        
+                </ul>
     </header>
-
     <main>
-
         <div class="conteudo">
-
             <p class="cardapio-titulo">Sobremesas</p>
 
+                 <div class="container-cardapio-lanches">
+                    <p class="texto-cardapio-parte-1">
 
-            
-            <div class="container-cardapio-lanches">
-
+                         Pedaços de Bolo<br><br>
                 
-
-
-                    <p class="texto_cardapio">
-
-                            Burguers de Carne<br><br>
+                        Bolo Red Velvet..........................................................................R$9,90 <br>
+                        Brigadeiro Branco....................................................................R$12,90<br>
+                        Brigadeiro Tradicional...............................................................  R$9,90 <br>
+                        Frutas Vermelhas.........................................................................R$9,90 <br>
+                        Leite Ninho...................................................................................R$12,90 <br><br>
                 
-                            Denji Burguer...............................................................................R$37,90 <br>
-                            Cheese Salad Adventure.......................................................... R$32,90 <br>
-                            Makima's Burguer....................................................................... R$45,90 <br>
-                            Chainsaw Burguer.......................................................................R$34,90 <br>
-                            X-treme Cheese Burguer ..........................................................R$49,90 <br><br>
+                        Mini Tortas Doces <br><br>
                 
-                            Burguers de Frango <br><br>
-                
-                            Chicken Aki Burguer...............................................................................R$37,90 <br>
-                            Cheese Chicken Salad.......................................................................... R$32,90 <br>
-                            Chicken Burguer.................................................................................... R$45,90 <br>
-                            Chainsaw Chicken Burguer.................................................................R$34,90 <br>
-                            X-treme Chicken Burguer .............................................................R$49,90 <br>
+                        Torta de Limão.......................................................................R$07,00 <br>
+                        Torta Mousse de Maracujá................................................. R$07,00 <br>
+                        Torta Holandesa.................................................................... R$07,00 <br>
+                        Torta de Ninho com Brigadeiro..........................................R$07,00 <br>
+                        Torta de Morango ....................................................................R$07,00 <br>
 
-                            <br><br>
-
-
-
+                        <br><br>        
                     </p>
 
 
                     <div class="cardapio_2">
+                        <p class="texto-cardapio-parte-1">
 
-                        <p class="texto_cardapio">
+                            Cupcakes & Donuts: <br><br>
 
+                            Cupcake de Chocolate....................................................................R$7,99  <br>
+                            Cupcake de Ninho.............................................................................R$7,99 <br>
+                            Cupcake de Frutas Vermelhas.................................................... R$7,99 <br>
+                            Donuts de Doce de Leite..............................................................R$7,99 <br>
+                            Donuts de Nutella ............................................................................R$7,99 <br><br>
 
-                        Burguers Vegan: <br><br>
+                            Doces Vegan: <br><br>
 
-                        Dark Vegan..........................................................................................R$37,90 <br>
-                        SaladVeggie....................................................................................... R$32,90 <br>
-                        SuperVeggie....................................................................................... R$45,90 <br>
-                        Chainsaw Vegan.................................................................................R$34,90 <br>
-                        X-treme Vegan Salad ......................................................................R$49,90 <br><br>
-
-                        Hot Dogs: <br><br>
-
-                        Hot Dog Comum.....................................................................................R$20,90 <br>
-                        Hot Dog Especial..................................................................................R$26,90 <br>
-                        Super Hot Dog Completo....................................................................R$30,90 <br>
-                        Denji Dog Extreme.................................................................................R$35,90 <br>
-                        Vegan Hot Dog ....................................................................................R$35,90 <br><br>
+                            Bolo de Chocolate Vegan............................................................. R$15,90 <br>
+                            Cheesecake Vegan.............................................................................R$15,90 <br>
+                            Bolo de Frutas Vermelhas Vegan.................................................R$15,90 <br>
+                            Bolo de Morango Vegan.....................................................................R$15,90 <br>
+                            Vegan Donuts de Frutas Vermelhas .......................................... R$12,90 <br><br>
 
                         </p>
 
-                    
-
+                        <input class="cardapio-sobremesas-button" type="submit" value="voltar" onclick="botaoVoltar()">
                 </div>
 
             </div>
 
-
-
-            
-
             <img class ="tela_fundo" src="imagens/cardapio_fundo.jpg">
 
 
-
         </div>
-
-        </main>
-
-
+    </main>
 
     <footer class="rodape">
+        <div class="linha1_rodape">     
+            </div>
+                <div class="linha2_rodape">
+                    </div>
 
-        <div class="linha1_rodape"></div>
-
-        <div class="linha2_rodape"></div>
-
-        <div class ="menu_rodape">
-
-            <img class = "burguer-rodape" src="imagens/hamburguer.png">
-
-            
-            <a href = "https://www.facebook.com.br"> <img class = "social-media" src="imagens/facebook_midia.png"></a>
-            <a href = "https://www.instagram.com"> <img class = "social-media" src="imagens/instagram_midia.png"> </a>
-            <a href = "https://www.whatsapp.com/?lang=pt_br"> <img class = "social-media" src="imagens/whatsapp_midia.png"></a>
-
-
-
-            <p class="copyright">Chainsaw Burguer © Todos os direitos reservados - 2023</p>
-
-        </div>
-
-
-    </footer>
+                    <div class ="menu_rodape">
+                        <img class = "burguer-rodape" src="imagens/hamburguer.png">
+                        <a href = "https://www.facebook.com.br"> <img class = "social-media" src="imagens/facebook_midia.png"></a>
+                        <a href = "https://www.instagram.com"> <img class = "social-media" src="imagens/instagram_midia.png"> </a>
+                        <a href = "https://www.whatsapp.com/?lang=pt_br"> <img class = "social-media" src="imagens/whatsapp_midia.png"></a>
+                         <p class="copyright">Chainsaw Burguer © Todos os direitos reservados - 2023</p>
+                    </div>
+    </footer> 
     
+    <script>
+
+        const btnVoltar=document.getElementsByClassName=("cardapio-sobremesas-button")[0];
+
+        function botaoVoltar() {
+
+            window.location="cardapio.html"
+        }
+
+    </script>
 </body>
 </html>

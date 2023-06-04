@@ -90,7 +90,7 @@ cardPizzas.addEventListener("mouseover", () => {
 cardPizzas.addEventListener("mouseout", () => {
 
     cardPizzas.innerHTML=`<img class="imagem-card" src="imagens/pizza.png" width="110px"> 
-    <p class="card-texto-pizzas">Pizzas</p>`
+    <p class="card-texto-pizzas">Pizzas & Porções</p>`
     cardPizzas.style.background="#db0c39"
 })
 

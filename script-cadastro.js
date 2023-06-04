@@ -98,3 +98,5 @@ inputConfirmaSenhaCadastro.addEventListener("blur", () => {
     inputConfirmaSenhaCadastro.style.background=""
 })
 
+
+
